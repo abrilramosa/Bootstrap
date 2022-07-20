@@ -6,30 +6,16 @@
 
 
 .container-fluid{
-        background-color: red;
-        height: 500px;
-        width: 1500px;
+    background-color: red;
 }
-@include media-breakpoint-up(sm){
-    .container-fluid{
-    background-color: yellow ;
-    }
-}
-@include media-breakpoint-up(md){
-    .container-fluid{
-    background-color: green;
-    }
-}
-@include media-breakpoint-up(lg){
-    .container-fluid{
-    background-color: blue;}
 
-}
-@include media-breakpoint-up(xl){
+@include media-breakpoint-between(xs,md) {
     .container-fluid{
-    background-color: violet;}
+    background-color: violet ;
+    }
 }
-@include media-breakpoint-up(xxl){
+@include media-breakpoint-between(lg,xxl) {
     .container-fluid{
-    background-color: rgb(233, 114, 40);}
+    background-color: green ;
+    }
 }

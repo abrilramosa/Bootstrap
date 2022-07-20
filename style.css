@@ -10924,32 +10924,15 @@ textarea.form-control-lg {
 }
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
   background-color: red;
-  height: 500px;
-  width: 1500px;
 }
 
-@media (min-width: 576px) {
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: yellow;
-  }
-}
-@media (min-width: 768px) {
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: green;
-  }
-}
-@media (min-width: 992px) {
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: blue;
-  }
-}
-@media (min-width: 1200px) {
+@media (max-width: 767.98px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
     background-color: violet;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1399.98px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: rgb(233, 114, 40);
+    background-color: green;
   }
 }/*# sourceMappingURL=style.css.map */
