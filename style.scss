@@ -1,3 +1,15 @@
 $primary: red;
+$secondar: green;
+$success: yellow;
+$info: orange;
+$warning: blue;
+$danger: violet;
+$light: black;
+$dark: white;
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+/*
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixings";*/
